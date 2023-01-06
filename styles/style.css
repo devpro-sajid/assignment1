@@ -7,6 +7,17 @@
 h1,h2,h3,h4,h5,h6,p{
     font-family: 'Work Sans';
 }
+.btn-primary{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    color: #005FAC;
+    padding:20px 25px;
+    background-color: white;
+    border:none;
+    border-radius: 5px;
+}
 /* Banner css */
 .banner{
     background-image: url(../images/banner/banner3.png);
@@ -45,17 +56,6 @@ h1,h2,h3,h4,h5,h6,p{
     margin:24px 0px 32px 0px;
     padding-left:30px;
 }
-.btn-primary{
-    font-style: normal;
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 23px;
-    color: #005FAC;
-    padding:20px 25px;
-    background-color: white;
-    border:none;
-    border-radius: 5px;
-}
 /* Failures Css */
 .failures-container{
     display:flex;
@@ -64,6 +64,7 @@ h1,h2,h3,h4,h5,h6,p{
     justify-content: space-between;
     align-items: center;
     gap:87px;
+    margin-bottom: 130px;
 }
 .failures-img{
     width:50%;
@@ -111,4 +112,63 @@ h1,h2,h3,h4,h5,h6,p{
     line-height: 26px;
     color: #444343;
 
+}
+/* My-Plans Css */
+.my-plans h1{
+    text-align:center;
+    margin-bottom:50px;
+}
+.plans-container{
+    display:flex;
+    width:1140px;
+    justify-content: space-between;
+    align-items: center;
+    margin:auto;
+    text-align: center;
+}
+.plans-logo{
+    width:96px;
+}
+.plans-title{
+    padding:24px 0px 16px 0px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    color: #151414;
+
+}
+.plans-des{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center;
+    color: #737272;
+}
+/* Mindset watch */
+.mindset-watch{
+    padding:130px 0px;
+}
+.mindset-container{
+    width:1140px;
+    margin:auto;
+    background: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%),url(../images/watch.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 8px;
+    padding:60px 64px;
+}
+.mindset-title{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #FFFFFF;
+    padding-bottom:24px;
+}
+.mindset-text{
+    width:50%;
 }
