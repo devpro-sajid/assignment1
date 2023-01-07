@@ -114,6 +114,9 @@ h1,h2,h3,h4,h5,h6,p{
 
 }
 /* My-Plans Css */
+.my-plans{
+    padding-bottom:90px;
+}
 .my-plans h1{
     text-align:center;
     margin-bottom:50px;
@@ -146,6 +149,52 @@ h1,h2,h3,h4,h5,h6,p{
     line-height: 29px;
     text-align: center;
     color: #737272;
+}
+/* Routine CSS */
+.my-routine{
+    padding:90px 0px;
+    text-align:center;
+    background-color:#005fac38 ;
+}
+.my-routine h1{
+    padding-bottom:50px;
+}
+.routine-container{
+    display:flex;
+    width:1140px;
+    justify-content: space-between;
+    align-items: center;
+    margin:auto;
+    text-align: center;
+    gap:25px;
+}
+.routine-details{
+    width:33%;
+    background-color:white;
+    padding:40px 20px;
+    border-radius: 8px;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+}
+.routine-logo{
+    width:100px;
+}
+.routine-title{
+    padding:24px 0px 16px 0px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    color: #151414;
+
+}
+.routine-des{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center;
+    color: #737272; 
 }
 /* Mindset watch */
 .mindset-watch{
@@ -249,6 +298,13 @@ footer .email-input{
     color: #F3F3F3;
     
     padding:22px;
+    outline:none;
+}
+footer .email-input:focus{
+    border:1px solid #005FAC;
+    transition:.5s;
+
+    
 }
 footer .email-input::placeholder{
     font-style: normal;
@@ -266,7 +322,7 @@ footer .sub-btn{
     padding:20px 35px;
     background: #005FAC;
     border-radius: 8px;
-
+    border:none;
 }
 .footer-text img{
     margin-right:18px;
